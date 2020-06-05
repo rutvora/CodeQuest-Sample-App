@@ -18,5 +18,6 @@ class MainActivity extends AppCompatActivity {
         newText.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
         newText.setText("New Text");
         relativeLayout.addView(newText);
+        int i  = 0;
     }
 }
